@@ -1,4 +1,5 @@
-
+//ora recupero elemento ul dal DOM 
+cosnt lisra = document.getElementById("lista-email");
 
 axios.get("https://flynn.boolean.careers/exercises/api/random/mail")
 .then(response => {
