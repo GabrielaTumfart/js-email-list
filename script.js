@@ -11,6 +11,8 @@ for (let i=0; i < 10; i++) {
 
     //creo una li per ogni email
     const li = document.createElement("li");
+    li.textContent = email;
+    
 
     //aggingo li alla lista usando append
     lista.appendChild("li");
