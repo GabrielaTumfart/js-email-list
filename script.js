@@ -15,7 +15,7 @@ for (let i=0; i < 10; i++) {
     
 
     //aggingo li alla lista usando append
-    lista.appendChild("li");
+    lista.appendChild(li);
 
     
     
