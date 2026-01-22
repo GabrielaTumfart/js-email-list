@@ -1,5 +1,5 @@
 //ora recupero elemento ul dal DOM 
-cosnt lisra = document.getElementById("lista-email");
+const lisra = document.getElementById("lista-email");
 
 //creo un ciclo per generare le 10 mail
 for (let i=0; i < 10; i++) {
