@@ -1,11 +1,11 @@
 //ora recupero elemento ul dal DOM 
-const lisra = document.getElementById("lista-email");
+const lista = document.getElementById("lista-email");
 
 //creo un ciclo per generare le 10 mail
 for (let i=0; i < 10; i++) {
     axios.get("https://flynn.boolean.careers/exercises/api/random/mail")
     .then(response => {
-        cosnt email = response.data.response;
+        const email = response.data.response;
 
     });
 
