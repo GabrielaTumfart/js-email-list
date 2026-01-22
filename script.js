@@ -9,6 +9,10 @@ for (let i=0; i < 10; i++) {
 
     });
 
+    //creo una li per ogni email
+    const li = document.createElement("li");
+    
+
 
 }
 /*axios.get("https://flynn.boolean.careers/exercises/api/random/mail")
