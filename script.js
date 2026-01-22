@@ -7,7 +7,7 @@ for (let i=0; i < 10; i++) {
     .then(response => {
         const email = response.data.response;
 
-    });
+   
 
     //creo una li per ogni email
     const li = document.createElement("li");
@@ -16,6 +16,8 @@ for (let i=0; i < 10; i++) {
 
     //aggingo li alla lista usando append
     lista.appendChild(li);
+
+});
 
     
     
